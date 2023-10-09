@@ -29,6 +29,8 @@ pub enum Type {
 	OauthGoogle,
 	#[serde(rename = "oauth_mock")]
 	OauthMock,
+	#[serde(rename = "oauth_github")]
+	OauthGithub,
 	#[serde(rename = "saml")]
 	Saml,
 	#[serde(other)]
