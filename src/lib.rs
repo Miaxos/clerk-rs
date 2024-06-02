@@ -1,4 +1,3 @@
-#![feature(proc_macro_byte_character)]
 #[macro_use]
 extern crate serde_derive;
 
